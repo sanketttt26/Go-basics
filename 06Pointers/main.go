@@ -5,9 +5,7 @@ import "fmt"
 func main() {
 	fmt.Println("Learning Pointers")
 	var a int = 10
-	var p *int // declaring a pointer variable
-
-	p = &a // assigning the address of 'a' to the pointer 'p'
+	var p = &a // assigning the address of 'a' to the pointer 'p'
 
 	fmt.Println("Value of a:", a)
 	fmt.Println("Address of a:", &a)
